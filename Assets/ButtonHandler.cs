@@ -5,16 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ButtonHandler : MonoBehaviour
 {
-    //public ButtonHandler _button;
-
-    //void Start()
-    //{
-    //    _button.onClick.AddListener(TaskOnClick);
-    //}
-
-    public void handleSignInTap()
+    public void changeSceneTo(string scene)
     {
         Debug.Log("hit");
-        SceneManager.LoadScene("HomeScreenScene");
+        SceneManager.LoadScene(scene);
     }
 }

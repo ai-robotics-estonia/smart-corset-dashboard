@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScreenScene.unity
     guid: b9b3cef788fc24d6f8ff32bd89da2818
+  - enabled: 1
+    path: Assets/Scenes/BreathingPatternScene.unity
+    guid: b72cb0f82264f4945b10d72d236b5edb
   m_configObjects: {}
