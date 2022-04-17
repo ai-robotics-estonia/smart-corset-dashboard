@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BreathingPatternScene.unity
     guid: b72cb0f82264f4945b10d72d236b5edb
+  - enabled: 1
+    path: Assets/Scenes/StatisticsScene.unity
+    guid: a97ebfd8fe4664e9c9b4fa639fe5e0ed
   m_configObjects: {}
