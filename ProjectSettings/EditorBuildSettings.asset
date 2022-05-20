@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StatisticsScene.unity
     guid: a97ebfd8fe4664e9c9b4fa639fe5e0ed
+  - enabled: 1
+    path: Assets/Scenes/StrainPressureScene.unity
+    guid: e30c137d734c949b0b9c4f917c1a16c6
+  - enabled: 1
+    path: Assets/Scenes/BluetoothConnectionScene.unity
+    guid: f43a23d0220eb428a89febfb59767b0f
   m_configObjects: {}

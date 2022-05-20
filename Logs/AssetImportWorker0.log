@@ -368,3 +368,111 @@ Received Import Request.
 Start importing Assets/Scenes/HomeScreenScene.unity using Guid(b9b3cef788fc24d6f8ff32bd89da2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dce3b98ed8572ad8cd623e8c72d8872') in 0.080851 seconds 
   Import took 0.091233 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-20 11:19:45.462 Unity[86617:1732937] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001ac2680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2086ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1729ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (932ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (220ms)
+				ProcessInitializeOnLoadAttributes (667ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.8 MB.
+System memory in use after: 178.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 1.872500 ms (FindLiveObjects: 0.064458 ms CreateObjectMapping: 0.028542 ms MarkObjects: 1.764500 ms  DeleteObjects: 0.014167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 120.151120 seconds.
+  path: Assets/Scenes/BluetoothConnectionScene.unity
+  artifactKey: Guid(f43a23d0220eb428a89febfb59767b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BluetoothConnectionScene.unity using Guid(f43a23d0220eb428a89febfb59767b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a56ab38490a067bbde4a43dc47ef007') in 0.019699 seconds 
+  Import took 0.021657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 355.155128 seconds.
+  path: Assets/Scenes/HomeScreenScene.unity
+  artifactKey: Guid(b9b3cef788fc24d6f8ff32bd89da2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HomeScreenScene.unity using Guid(b9b3cef788fc24d6f8ff32bd89da2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7da997dd7192824fac771ba73a50662') in 0.007971 seconds 
+  Import took 0.022842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.272593 seconds.
+  path: Assets/Scenes/BluetoothConnectionScene.unity
+  artifactKey: Guid(f43a23d0220eb428a89febfb59767b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BluetoothConnectionScene.unity using Guid(f43a23d0220eb428a89febfb59767b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c053176e60dd88d208949d009e2ce80') in 0.003474 seconds 
+  Import took 0.009137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 331.650799 seconds.
+  path: Assets/Sprites/Mask group (5).png
+  artifactKey: Guid(61baf6c364e234aa7a233d0cb764321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Mask group (5).png using Guid(61baf6c364e234aa7a233d0cb764321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218c92efa33f616c0686dbd584617537') in 0.179456 seconds 
+  Import took 0.191180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.927559 seconds.
+  path: Assets/Scenes/BluetoothConnectionScene.unity
+  artifactKey: Guid(f43a23d0220eb428a89febfb59767b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BluetoothConnectionScene.unity using Guid(f43a23d0220eb428a89febfb59767b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eff72f29e4f4495bff9e9bce992540d') in 0.005646 seconds 
+  Import took 0.015738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.084843 seconds.
+  path: Assets/Scenes/BluetoothConnectionScene.unity
+  artifactKey: Guid(f43a23d0220eb428a89febfb59767b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BluetoothConnectionScene.unity using Guid(f43a23d0220eb428a89febfb59767b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a1a2f5c0eb46dd3c0c8b30d9e834e3') in 0.001555 seconds 
+  Import took 0.004342 seconds .
+
