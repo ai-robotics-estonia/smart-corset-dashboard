@@ -6,21 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AuthenticationScene.unity
+    path: Assets/[Personal Folders]/[Aleksi]/[Scenes]/AuthenticationScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/HomeScreenScene.unity
+    path: Assets/[Personal Folders]/[Aleksi]/[Scenes]/HomeScreenScene.unity
     guid: b9b3cef788fc24d6f8ff32bd89da2818
   - enabled: 1
-    path: Assets/Scenes/BreathingPatternScene.unity
+    path: Assets/[Personal Folders]/[Aleksi]/[Scenes]/BreathingPatternScene.unity
     guid: b72cb0f82264f4945b10d72d236b5edb
   - enabled: 1
-    path: Assets/Scenes/StatisticsScene.unity
+    path: Assets/[Personal Folders]/[Aleksi]/[Scenes]/StatisticsScene.unity
     guid: a97ebfd8fe4664e9c9b4fa639fe5e0ed
   - enabled: 1
-    path: Assets/Scenes/StrainPressureScene.unity
+    path: Assets/[Personal Folders]/[Aleksi]/[Scenes]/StrainPressureScene.unity
     guid: e30c137d734c949b0b9c4f917c1a16c6
   - enabled: 1
-    path: Assets/Scenes/BluetoothConnectionScene.unity
+    path: Assets/[Personal Folders]/[Aleksi]/[Scenes]/BluetoothConnectionScene.unity
     guid: f43a23d0220eb428a89febfb59767b0f
   m_configObjects: {}
