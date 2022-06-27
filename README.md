@@ -1,92 +1,88 @@
-# AIRE Smart Corset Dashboard
+**SMART BRACE UI PROTOTYPE DOCUMENTATION**
 
-AIRE Smart Corset dashboard interface for user and doctor 
+The aire-smart-corset-dashboard is a user interface prototype aimed at real-time monitoring and guidance of the patients using a smart scoliosis brace. The final purpose of this app is to support both patients and medical personnel during the scoliosis treatment process by providing both real-time data visualization and brace usage statistics.
 
-## Getting started
+The interface is in a demo state and constitutes only an interactable mock-up of the future final application.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+**Software requirements for testing**
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- Unity Hub.
+- Unity, version 2021.3.3 f1.
+- Required Unity modules for Android build.
 
-## Add your files
+**INSTALLATION**
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+Before cloning or downloading the repo make sure Unity is installed on your PC. To do so first install Unity Hub available at this [link](https://unity3d.com/get-unity/download). You might need to register first, and activate a free individual, Personal or Student,
+license on the Unity website. More info about Unity licenses and usage are available [here](https://store.unity.com/#plans-individual).
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/SiPizz/aire-smart-corset-dashboard.git
-git branch -M main
-git push -uf origin main
-```
+After installing Unity Hub, locate the required Unity version (2021.3.3f1.) in the *Install* tab on the left. Alternatively, you can access it at this [page](https://unity3d.com/get-unity/download/archive) and press on the *Unity Hub* button to start the installation.
 
-## Integrate with your tools
+Before initiating the installation procedure, make sure you flag all the options related to the Android modules installation and include Android Built support with Android SDK & NDK Tools and OpenJDK.
 
-- [ ] [Set up project integrations](https://gitlab.com/SiPizz/aire-smart-corset-dashboard/-/settings/integrations)
+<img src="readme-files/Install-Packages.png" height="150">
 
-## Collaborate with your team
+After installation, locate the project you cloned or downloaded on your PC from the Unity Hub *Open, Add project* *from disk* option.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+<img src="readme-files/Open-from-disk.png" height="150">
 
-## Test and Deploy
+After locating the repo folder on your PC the project will appear in the available projects in Unity Hub. Click on the project name to open it. This might take a few minutes.
 
-Use the built-in continuous integration in GitLab.
+![Open](readme-files/Open-project.png)
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
-***
+**PROJECT SCENES**
 
-# Editing this README
+Unity game engine scenes are assets containing all or parts of the components and elements necessary for a specific application to run. These include interface components, 3D objects, scripts, audio and video sources, input sources, physics components etc. For more basics on the Unity features and UI please refer to the info provided [here](https://unity.com/learn/get-started).
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+There are a few scenes involved in the current application demo. The first set is constituted by the mobile user interface dashboard pages, including the graphical contents and navigation buttons.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+- *AuthenticationScene*
+- *BluetoothConnectionScene*
+- *BreathingPatternScene*
+- *HomeScreenScene*
+- *StatisticsScene*
+- *StrainPressureScene*
 
-## Name
-Choose a self-explaining name for your project.
+The second includes a 3D 'Digital Twin' visualization of the user avatar and corset, with some preliminary interactions and visualization toggles.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+- *Smart Corset DT 0.1*
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+It is possible to open and access the scenes by navigating the project (*Project* tab in Unity) and open the *Scenes* folder.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+**RUNNING ON EDITOR SIMULATOR**
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+To be able to visualize the editor application preview of the Mobile UI:
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+-   Open *AuthenticationScene*
+-   Access the *Game* tab and switch to *Simulator* option
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+<img src="readme-files/Simulator.png" height="90">
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+-   Select the device you want to emulate in the drop-down menu
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+<img src="readme-files/Device.png" width="300">
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+-   Press the play button in the top center of the Unity UI
+-   Interact with the UI by using the mouse to click
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Follow the same steps to access the 3D corset visualization by opening the dedicated scene *Smart Corset DT 0.1.*
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+**BUILD**
 
-## License
-For open source projects, say how it is licensed.
+Alternatively, it is possible to build the project in two different apps, install and test them on any android device. To be able to do this:
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+-   Access the *Build Settings* menu under *File*
+
+-   Open each of the related scenes (mentioned above) and add them to the build by clicking on the *Add Open Scenes* button. Arrange the scenes in the correct order in the menu by clicking and dragging them. Make sure the necessary scenes are flagged so that they can be included in the build.
+
+<img src="readme-files/Scenes-build.png" height="200">
+
+-   Switch platform to Android build by clicking on the *Android* logo and pressing the *Switch Platform* on the bottom right of the menu.
+
+-   Press *Build* button and wait until the .apk file is saved in the selected location on your PC.
+
+-   Transfer and install the .apk file on your mobile device. You might need to grant permission to install applications from unknown sources on your mobile.
+
+-   Open and test the application
+
+Follow the same steps to build the 3D corset visualization app but include the *Smart Corset DT 0.1* scene only when setting up the build.
