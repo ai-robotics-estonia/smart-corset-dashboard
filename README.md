@@ -1,3 +1,7 @@
+> [!CAUTION]
+> This repository is archived and out of commission. The contents of this repository have been merged with the main repository: [health_monitoring_platform_for_orthopaedic_devices.git](https://github.com/ai-robotics-estonia/health_monitoring_platform_for_orthopaedic_devices.git)
+
+
 **SMART BRACE UI PROTOTYPE DOCUMENTATION**
 
 The aire-smart-corset-dashboard is a user interface prototype aimed at real-time monitoring and guidance of the patients using a smart scoliosis brace. The final purpose of this app is to support both patients and medical personnel during the scoliosis treatment process by providing both real-time data visualization and brace usage statistics.
